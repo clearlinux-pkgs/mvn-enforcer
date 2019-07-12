@@ -4,13 +4,18 @@
 #
 Name     : mvn-enforcer
 Version  : 1.4.1
-Release  : 1
+Release  : 2
 URL      : https://repo1.maven.org/maven2/org/apache/maven/enforcer/enforcer-api/1.4.1/enforcer-api-1.4.1.jar
 Source0  : https://repo1.maven.org/maven2/org/apache/maven/enforcer/enforcer-api/1.4.1/enforcer-api-1.4.1.jar
 Source1  : https://repo1.maven.org/maven2/org/apache/maven/enforcer/enforcer-api/1.4.1/enforcer-api-1.4.1.pom
-Source2  : https://repo1.maven.org/maven2/org/apache/maven/enforcer/enforcer-rules/1.4.1/enforcer-rules-1.4.1.jar
-Source3  : https://repo1.maven.org/maven2/org/apache/maven/enforcer/enforcer-rules/1.4.1/enforcer-rules-1.4.1.pom
-Source4  : https://repo1.maven.org/maven2/org/apache/maven/enforcer/enforcer/1.4.1/enforcer-1.4.1.pom
+Source2  : https://repo1.maven.org/maven2/org/apache/maven/enforcer/enforcer-api/3.0.0-M1/enforcer-api-3.0.0-M1.jar
+Source3  : https://repo1.maven.org/maven2/org/apache/maven/enforcer/enforcer-api/3.0.0-M1/enforcer-api-3.0.0-M1.pom
+Source4  : https://repo1.maven.org/maven2/org/apache/maven/enforcer/enforcer-rules/1.4.1/enforcer-rules-1.4.1.jar
+Source5  : https://repo1.maven.org/maven2/org/apache/maven/enforcer/enforcer-rules/1.4.1/enforcer-rules-1.4.1.pom
+Source6  : https://repo1.maven.org/maven2/org/apache/maven/enforcer/enforcer-rules/3.0.0-M1/enforcer-rules-3.0.0-M1.jar
+Source7  : https://repo1.maven.org/maven2/org/apache/maven/enforcer/enforcer-rules/3.0.0-M1/enforcer-rules-3.0.0-M1.pom
+Source8  : https://repo1.maven.org/maven2/org/apache/maven/enforcer/enforcer/1.4.1/enforcer-1.4.1.pom
+Source9  : https://repo1.maven.org/maven2/org/apache/maven/enforcer/enforcer/3.0.0-M1/enforcer-3.0.0-M1.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0
@@ -38,14 +43,29 @@ cp %{SOURCE0} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/enforc
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/enforcer/enforcer-api/1.4.1
 cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/enforcer/enforcer-api/1.4.1
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/enforcer/enforcer-rules/1.4.1
-cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/enforcer/enforcer-rules/1.4.1
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/enforcer/enforcer-api/3.0.0-M1
+cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/enforcer/enforcer-api/3.0.0-M1
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/enforcer/enforcer-api/3.0.0-M1
+cp %{SOURCE3} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/enforcer/enforcer-api/3.0.0-M1
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/enforcer/enforcer-rules/1.4.1
-cp %{SOURCE3} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/enforcer/enforcer-rules/1.4.1
+cp %{SOURCE4} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/enforcer/enforcer-rules/1.4.1
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/enforcer/enforcer-rules/1.4.1
+cp %{SOURCE5} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/enforcer/enforcer-rules/1.4.1
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/enforcer/enforcer-rules/3.0.0-M1
+cp %{SOURCE6} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/enforcer/enforcer-rules/3.0.0-M1
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/enforcer/enforcer-rules/3.0.0-M1
+cp %{SOURCE7} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/enforcer/enforcer-rules/3.0.0-M1
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/enforcer/enforcer/1.4.1
-cp %{SOURCE4} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/enforcer/enforcer/1.4.1
+cp %{SOURCE8} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/enforcer/enforcer/1.4.1
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/enforcer/enforcer/3.0.0-M1
+cp %{SOURCE9} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/enforcer/enforcer/3.0.0-M1
 
 
 %files
@@ -55,6 +75,11 @@ cp %{SOURCE4} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/enforc
 %defattr(-,root,root,-)
 /usr/share/java/.m2/repository/org/apache/maven/enforcer/enforcer-api/1.4.1/enforcer-api-1.4.1.jar
 /usr/share/java/.m2/repository/org/apache/maven/enforcer/enforcer-api/1.4.1/enforcer-api-1.4.1.pom
+/usr/share/java/.m2/repository/org/apache/maven/enforcer/enforcer-api/3.0.0-M1/enforcer-api-3.0.0-M1.jar
+/usr/share/java/.m2/repository/org/apache/maven/enforcer/enforcer-api/3.0.0-M1/enforcer-api-3.0.0-M1.pom
 /usr/share/java/.m2/repository/org/apache/maven/enforcer/enforcer-rules/1.4.1/enforcer-rules-1.4.1.jar
 /usr/share/java/.m2/repository/org/apache/maven/enforcer/enforcer-rules/1.4.1/enforcer-rules-1.4.1.pom
+/usr/share/java/.m2/repository/org/apache/maven/enforcer/enforcer-rules/3.0.0-M1/enforcer-rules-3.0.0-M1.jar
+/usr/share/java/.m2/repository/org/apache/maven/enforcer/enforcer-rules/3.0.0-M1/enforcer-rules-3.0.0-M1.pom
 /usr/share/java/.m2/repository/org/apache/maven/enforcer/enforcer/1.4.1/enforcer-1.4.1.pom
+/usr/share/java/.m2/repository/org/apache/maven/enforcer/enforcer/3.0.0-M1/enforcer-3.0.0-M1.pom
