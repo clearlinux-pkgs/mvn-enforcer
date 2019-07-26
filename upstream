@@ -1,4 +1,17 @@
 70e2aa685ade913d8d3fe5d0167f6623912e6067/enforcer-api-1.4.1.jar
+02b46cf923a7f5c75ffae61cedff103e0def3560/maven-enforcer-plugin-3.0.0-M1.jar
+d7f4caf8da21ff735b383e551b65628de49f06b5/maven-enforcer-plugin-3.0.0-M1.pom
+4f94ecb01bf19767d2cfb6c476d9f1212ec5a946/enforcer-api-1.4.1.pom
+5693ae9dc5720690c46695d31649a2719070e3d4/enforcer-api-3.0.0-M1.jar
+c7a8d3017d67e8b2e27ef479c8b92ca06757d3ae/enforcer-api-3.0.0-M1.pom
+b47e693da986dd2e8c0169dc31178fb07a06da39/enforcer-rules-1.4.1.jar
+483b026fb9ba7897739ada771e46eb381466480a/enforcer-rules-1.4.1.pom
+b89595f5ce97616b4b33adb4b946792178a884e7/enforcer-rules-3.0.0-M1.jar
+3c776ee3099bcb464556d2f5e53c61ab5365075a/enforcer-rules-3.0.0-M1.pom
+ca2004358abd418d29a902dfe839c2a69bd27b97/enforcer-1.4.1.pom
+c01359f3798054f74452d2e6f8e5a5e281df8fd8/enforcer-3.0.0-M1.pom
+e9bd7df541415bfe587ce082458f9a48bf9b55b4/maven-enforcer-plugin-1.4.1.jar
+ff9b0be125d5dac45e2106d7f6d05bce3b1059e2/maven-enforcer-plugin-1.4.1.pom
 4f94ecb01bf19767d2cfb6c476d9f1212ec5a946/enforcer-api-1.4.1.pom
 b47e693da986dd2e8c0169dc31178fb07a06da39/enforcer-rules-1.4.1.jar
 483b026fb9ba7897739ada771e46eb381466480a/enforcer-rules-1.4.1.pom
@@ -10,3 +23,5 @@ b89595f5ce97616b4b33adb4b946792178a884e7/enforcer-rules-3.0.0-M1.jar
 3c776ee3099bcb464556d2f5e53c61ab5365075a/enforcer-rules-3.0.0-M1.pom
 02b46cf923a7f5c75ffae61cedff103e0def3560/maven-enforcer-plugin-3.0.0-M1.jar
 d7f4caf8da21ff735b383e551b65628de49f06b5/maven-enforcer-plugin-3.0.0-M1.pom
+e9bd7df541415bfe587ce082458f9a48bf9b55b4/maven-enforcer-plugin-1.4.1.jar
+ff9b0be125d5dac45e2106d7f6d05bce3b1059e2/maven-enforcer-plugin-1.4.1.pom
