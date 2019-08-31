@@ -4,7 +4,7 @@
 #
 Name     : mvn-enforcer
 Version  : 1.4.1
-Release  : 5
+Release  : 6
 URL      : https://repo1.maven.org/maven2/org/apache/maven/enforcer/enforcer-api/1.4.1/enforcer-api-1.4.1.jar
 Source0  : https://repo1.maven.org/maven2/org/apache/maven/enforcer/enforcer-api/1.4.1/enforcer-api-1.4.1.jar
 Source1  : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-enforcer-plugin/3.0.0-M1/maven-enforcer-plugin-3.0.0-M1.jar
